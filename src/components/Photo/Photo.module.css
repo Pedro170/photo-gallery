@@ -1,0 +1,15 @@
+.photo {
+  border-radius: .5rem;
+  background: var( --type-first );
+  padding: .6rem;
+}
+
+.photo img {
+  display: block;
+  border-radius: .4rem;
+  max-width: 100%;
+}
+
+.photo p {
+  text-align: center;
+}

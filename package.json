@@ -2,6 +2,10 @@
   "name": "photo-gallery",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "João Pedro dos Santos Silva",
+    "email": "Joaosilva8882@gmail.com"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -10,10 +14,12 @@
     "@types/node": "^16.11.46",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "firebase": "^9.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.4",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4"
   }
 }
